@@ -8,11 +8,11 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className={styles.navbar}>
-      <div className={styles.navbarLogo}>
-        <img src={images.logo} alt="logo" />
-      </div>
+      <a href="#home">
+        <div className={styles.navbarLogo}>VOVCODER</div>
+      </a>
       <ul className={styles.navbarLinks}>
-        {["home", "about", "skills", "contact"].map((item) => (
+        {["home", "about", "work", "skills", "contact"].map((item) => (
           <li className="app__flex p-text" key={`link-${item}`}>
             <div />
             <a href={`#${item}`}>{item}</a>
@@ -25,11 +25,11 @@ const Navbar = () => {
         {toggle && (
           <motion.div
             whileInView={{ x: [300, 0] }}
-            transition={{ duration: 0.85, ease: "easeOut" }}
+            transition={{ duration: 0.85, ease: "easeInOut" }}
           >
             <HiX onClick={() => setToggle(false)} />
             <ul>
-              {["home", "about", "skills", "contact"].map((item) => (
+              {["home", "about", "work", "skills", "contact"].map((item) => (
                 <li key={item}>
                   <a href={`#${item}`} onClick={() => setToggle(false)}>
                     {item}
