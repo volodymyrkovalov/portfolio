@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
         <div className={styles.footerCard}>
           <SiInstagram className={styles.instaIcon} />
-          <a href="https://www.instagram.com/just.a.techie/" className="p-text">
+          <a href="https://www.instagram.com/just.a.techie" className="p-text">
             @just.a.techie
           </a>
         </div>

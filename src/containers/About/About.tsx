@@ -7,17 +7,19 @@ import MotionWrap from "../../wrapper/MotionWrap";
 const abouts = [
   {
     title: "Web developer",
-    description: "I am a good web developer",
+    description:
+      "I am a good web developer with a wide range of skills including front-end and back-end development in JS/TS",
     imgUrl: images.about01,
   },
   {
     title: "Frontend developer",
-    description: "I am a good web developer",
+    description: "I enjoy creating beautiful and user-friendly frontends ",
     imgUrl: images.about03,
   },
   {
     title: "Backend developer",
-    description: "I am a good web developer",
+    description:
+      "I fancy creating and developing complex backends using OOP principles and patterns",
     imgUrl: images.about04,
   },
 ];

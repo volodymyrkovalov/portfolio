@@ -1,15 +1,17 @@
-import { SiGithub, SiInstagram } from "react-icons/si";
+import { SiGithub, SiInstagram, SiLinkedin } from "react-icons/si";
 
 const SocialMedia = () => {
   return (
     <div className="app__social">
-      <div>
+      <a href="https://github.com/megapolisboy">
         <SiGithub />
-      </div>
-      <div>
+      </a>
+      <a href="https://www.instagram.com/just.a.techie">
         <SiInstagram />
-      </div>
-      <div></div>
+      </a>
+      <a href="https://www.linkedin.com/in/volodymyr-kovalov-4b38b324b">
+        <SiLinkedin />
+      </a>
     </div>
   );
 };

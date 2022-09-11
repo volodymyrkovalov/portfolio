@@ -58,6 +58,22 @@ const initialWorks = [
     codeLink: "https://github.com/megapolisboy/uber-clone",
     description: "Amazon clone with NextJS",
   },
+  {
+    title: "!NTROVERT (front-end)",
+    imageUrl: images.about01,
+    tags: ["Frontend"] as WorkType[],
+    projectLink: "https://luxury-banoffee-3b694d.netlify.app",
+    codeLink: "https://github.com/megapolisboy/social-media-app-frontend",
+    description: 'Front-end part of project "Social media app !NTROVERT"',
+  },
+  {
+    title: "!NTROVERT (back-end)",
+    imageUrl: images.about01,
+    tags: ["Backend"] as WorkType[],
+    projectLink: "https://luxury-banoffee-3b694d.netlify.app",
+    codeLink: "https://github.com/megapolisboy/social-media-app-backend",
+    description: 'Back-end part of project "Social media app !NTROVERT"',
+  },
 ];
 
 const Work = () => {
