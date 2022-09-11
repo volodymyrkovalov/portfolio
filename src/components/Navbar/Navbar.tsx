@@ -1,4 +1,3 @@
-import { images } from "../../constants";
 import styles from "./Navbar.module.scss";
 import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
