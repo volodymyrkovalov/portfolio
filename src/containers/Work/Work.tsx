@@ -77,7 +77,7 @@ const initialWorks = [
 ];
 
 const Work = () => {
-  const [works, setWorks] = useState<IWork[]>(initialWorks);
+  const [works] = useState<IWork[]>(initialWorks);
   const [filterWork, setFilterWork] = useState<IWork[]>(initialWorks);
   const [activeFilter, setActiveFilter] = useState<WorkType>("All");
   const [animateCard, setAnimateCard] = useState({ y: 0, opacity: 1 });

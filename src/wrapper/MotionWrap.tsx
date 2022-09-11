@@ -1,5 +1,3 @@
-import NavigationDots from "../components/NavigationDots";
-import SocialMedia from "../components/SocialMedia";
 import { motion } from "framer-motion";
 
 const MotionWrap = (Component: React.FC, classNames?: string) => () => {

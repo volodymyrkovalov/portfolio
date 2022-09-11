@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { SiInstagram, SiTelegram } from "react-icons/si";
 import { images } from "../../constants";
 import AppWrap from "../../wrapper/AppWrap";
