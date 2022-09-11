@@ -8,7 +8,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <a href="#home">
-        <div className={styles.navbarLogo}>VOVCODER</div>
+        <div className={styles.navbarLogo}>VOLODYMYR KOVALOV</div>
       </a>
       <ul className={styles.navbarLinks}>
         {["home", "about", "work", "skills", "contact"].map((item) => (
