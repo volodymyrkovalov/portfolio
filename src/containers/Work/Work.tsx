@@ -23,7 +23,7 @@ const initialWorks = [
     imageUrl: images.about01,
     tags: ["Full stack"] as WorkType[],
     projectLink: "https://luxury-banoffee-3b694d.netlify.app",
-    codeLink: "https://github.com/megapolisboy/social-media-app-frontend",
+    codeLink: "https://github.com/volodymyrkovalov/social-media-app-frontend",
     description: 'MERN stack team project "Social media app !NTROVERT"',
   },
   {
@@ -31,7 +31,7 @@ const initialWorks = [
     imageUrl: images.about02,
     tags: ["Backend"] as WorkType[],
     projectLink: "",
-    codeLink: "https://github.com/megapolisboy/music-app-backend",
+    codeLink: "https://github.com/volodymyrkovalov/music-app-backend",
     description: "Music app API with NestJS",
   },
   {
@@ -39,7 +39,7 @@ const initialWorks = [
     imageUrl: images.spotify,
     tags: ["Frontend"] as WorkType[],
     projectLink: "https://spotify-clone-snowy-nine.vercel.app",
-    codeLink: "https://github.com/megapolisboy/spotify-clone",
+    codeLink: "https://github.com/volodymyrkovalov/spotify-clone",
     description: "Spotify clone using 3rd party Spotify API with NextJS",
   },
   {
@@ -47,15 +47,15 @@ const initialWorks = [
     imageUrl: images.amazon,
     tags: ["Frontend"] as WorkType[],
     projectLink: "https://amazon-clone-ebon-two.vercel.app",
-    codeLink: "https://github.com/megapolisboy/amazon-clone",
+    codeLink: "https://github.com/volodymyrkovalov/amazon-clone",
     description: "Amazon clone with NextJS",
   },
   {
     title: "Uber clone",
     imageUrl: images.mobile,
     tags: ["Frontend"] as WorkType[],
-    projectLink: "https://uber-clone-d290zkj18-megapolisboy.vercel.app/",
-    codeLink: "https://github.com/megapolisboy/uber-clone",
+    projectLink: "https://uber-clone-d290zkj18-volodymyrkovalov.vercel.app/",
+    codeLink: "https://github.com/volodymyrkovalov/uber-clone",
     description: "Amazon clone with NextJS",
   },
   {
@@ -63,7 +63,7 @@ const initialWorks = [
     imageUrl: images.about01,
     tags: ["Frontend"] as WorkType[],
     projectLink: "https://luxury-banoffee-3b694d.netlify.app",
-    codeLink: "https://github.com/megapolisboy/social-media-app-frontend",
+    codeLink: "https://github.com/volodymyrkovalov/social-media-app-frontend",
     description: 'Front-end part of project "Social media app !NTROVERT"',
   },
   {
@@ -71,7 +71,7 @@ const initialWorks = [
     imageUrl: images.about01,
     tags: ["Backend"] as WorkType[],
     projectLink: "https://luxury-banoffee-3b694d.netlify.app",
-    codeLink: "https://github.com/megapolisboy/social-media-app-backend",
+    codeLink: "https://github.com/volodymyrkovalov/social-media-app-backend",
     description: 'Back-end part of project "Social media app !NTROVERT"',
   },
 ];

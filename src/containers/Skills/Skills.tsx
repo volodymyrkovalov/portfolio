@@ -33,9 +33,10 @@ import {
   SiTestinglibrary,
   SiTypescript,
   SiWebpack,
+  SiYarn,
 } from "react-icons/si";
 
-import { FaClipboardList } from "react-icons/fa";
+import { FaClipboardList, FaInfinity } from "react-icons/fa";
 import { BsBraces, BsFillCloudArrowUpFill } from "react-icons/bs";
 import { motion } from "framer-motion";
 import AppWrap from "../../wrapper/AppWrap";
@@ -91,8 +92,8 @@ const skills = [
       { title: "Heroku", icon: <SiHeroku /> },
       { title: "Jest", icon: <SiJest /> },
       { title: "NPM", icon: <SiNpm /> },
-      { title: "Firebase", icon: <SiFirebase /> },
-      { title: "Webpack", icon: <SiWebpack /> },
+      { title: "Yarn", icon: <SiYarn /> },
+      { title: "CI/CD", icon: <FaInfinity /> },
       { title: "Socket.io", icon: <SiSocketdotio /> },
       { title: "AWS", icon: <SiAmazonaws /> },
       { title: "Docker", icon: <SiDocker /> },

@@ -3,7 +3,7 @@ import { SiGithub, SiInstagram, SiLinkedin } from "react-icons/si";
 const SocialMedia = () => {
   return (
     <div className="app__social">
-      <a href="https://github.com/megapolisboy">
+      <a href="https://github.com/volodymyrkovalov">
         <SiGithub />
       </a>
       <a href="https://www.instagram.com/just.a.techie">
